@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # oTree apps
 
 Some experimental implementation of games for oTree v5
@@ -126,8 +126,8 @@ Configurable parameters (in session config):
 
 0. download/unzip content of this repo into some working directory, or clone it using git 
    ```bash
-   git clone https://github.com/qwiglydee/otree-experiments/
-   cd otree-experiments
+   git clone https://github.com/DonovanhDiaz/ImplicitAssociationTest_otree
+   cd ImplicitAssociationTest_otree
    ```
 1. create and activate virtualenv in working directory
    ```bash
