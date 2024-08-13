@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # oTree apps
 
 Some experimental implementation of games for oTree v5
@@ -222,3 +223,7 @@ which is set to `= BLOCKS1` initially.
 There are two predefined setups: `BLOCKS1` and `BLOCKS2`. 
 The first one is for classic setup, when primary category switches in last 3 rounds, and secondary remains in place.  
 The second one is for alternative setup, when primary category stays, and secondary switches.
+=======
+# ImplicitAssociationTest_otree
+This is a modified version of the IAT. The only difference is that it allow you to store information from the players.  
+>>>>>>> f167010458ee3532b84d8b67bcbeeb810b4f7788
