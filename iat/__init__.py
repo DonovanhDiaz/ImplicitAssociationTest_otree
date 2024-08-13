@@ -115,7 +115,6 @@ class Player(BasePlayer):
     num_correct = models.IntegerField(initial=0)
     num_failed = models.IntegerField(initial=0)
 
-
 class Trial(ExtraModel):
     """A record of single iteration
     Keeps corner categories from round setup to simplify furher analysis.

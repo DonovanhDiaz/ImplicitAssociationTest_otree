@@ -58,7 +58,6 @@ class Player(BasePlayer):
 
 class Trial(ExtraModel):
     """A record of single iteration"""
-
     player = models.Link(Player)
     round = models.IntegerField(initial=0)
     iteration = models.IntegerField(initial=0)

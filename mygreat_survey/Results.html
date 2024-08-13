@@ -1,0 +1,18 @@
+{{ extends 'global/Page.html' }}
+{{ block title }}Results{{ endblock }}
+
+{{ block content }}
+
+{{ formfields }}
+
+Your name is {{player.nombre}}
+<br>
+Your name is {{player.edad}}
+<br>
+Your election from 1:20 is {{player.eleccion}}
+<br>
+Your favourite sport is {{player.deporte}}
+
+{{ next_button }}
+
+{{ endblock }}

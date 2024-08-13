@@ -1,66 +1,11 @@
 from os import environ
 
+#### 
 SESSION_CONFIGS = [
     dict(
-        name="generic",
-        display_name="generic stimuli recognition task",
-        num_demo_participants=1,
-        app_sequence=["generic"],
-        categories={'foo': 'emojis_positive', 'bar': 'emojis_negative'},
-        labels={'foo': 'Positive', 'bar': 'Negative', 'baz': "None"},
-    ),
-    dict(
-        name="ldt_yesno",
-        display_name="LDT with yes/no responses",
-        num_demo_participants=1,
-        app_sequence=["ldt_yesno"],
-        labels={'word': 'word', 'nonword': "non-word"},
-    ),
-    dict(
-        name="ldt_gonogo",
-        display_name="LDT with go/nogo",
-        num_demo_participants=1,
-        app_sequence=["ldt_gonogo"],
-        labels={'word': 'word', 'nonword': "non-word"},
-    ),
-    dict(
-        name="ldt_priming",
-        display_name="LDT with semantic priming",
-        num_demo_participants=1,
-        app_sequence=["ldt_priming"],
-        labels={'word': 'word', 'nonword': "non-word"},
-    ),
-    dict(
-        name="sliders",
-        display_name="RET Slider task",
-        num_demo_participants=1,
-        app_sequence=["sliders"],
-    ),
-    dict(
-        name="decoding",
-        display_name="RET Decoding numbers to words",
-        num_demo_participants=1,
-        app_sequence=["real_effort"],
-        task='decoding',
-        attempts_per_puzzle=1,
-    ),
-    dict(
-        name="transcription",
-        display_name="RET Transcription of text from an image",
-        num_demo_participants=1,
-        app_sequence=["real_effort"],
-        task='transcription',
-        attempts_per_puzzle=2,
-        retry_delay=3.0,
-    ),
-    dict(
-        name="matrices",
-        display_name="RET Counting symbols in a matrix",
-        num_demo_participants=1,
-        app_sequence=["real_effort"],
-        task='matrix',
-        attempts_per_puzzle=1,
-    ),
+        name='my_session', 
+        num_demo_participants=None, 
+        app_sequence=['mygreat_survey']),
     dict(
         name="iat_words",
         display_name="IAT using words, from CSV",
